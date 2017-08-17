@@ -12,8 +12,6 @@
 		FABEEBDF1F45D46E00E21294 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABEEBDD1F45D46E00E21294 /* Main.storyboard */; };
 		FABEEBE11F45D46E00E21294 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FABEEBE01F45D46E00E21294 /* Assets.xcassets */; };
 		FABEEBE41F45D46E00E21294 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABEEBE21F45D46E00E21294 /* LaunchScreen.storyboard */; };
-		FABEEBEE1F45D9AE00E21294 /* female.png in Resources */ = {isa = PBXBuildFile; fileRef = FABEEBEC1F45D9AE00E21294 /* female.png */; };
-		FABEEBEF1F45D9AE00E21294 /* male.png in Resources */ = {isa = PBXBuildFile; fileRef = FABEEBED1F45D9AE00E21294 /* male.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +22,6 @@
 		FABEEBE01F45D46E00E21294 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FABEEBE31F45D46E00E21294 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FABEEBE51F45D46E00E21294 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FABEEBEC1F45D9AE00E21294 /* female.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = female.png; path = ../../../lerningProject/lerninProject/lerninProject/pic/female.png; sourceTree = "<group>"; };
-		FABEEBED1F45D9AE00E21294 /* male.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = male.png; path = ../../../lerningProject/lerninProject/lerninProject/pic/male.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,8 +68,6 @@
 		FABEEBEB1F45D99600E21294 /* pic */ = {
 			isa = PBXGroup;
 			children = (
-				FABEEBEC1F45D9AE00E21294 /* female.png */,
-				FABEEBED1F45D9AE00E21294 /* male.png */,
 			);
 			name = pic;
 			sourceTree = "<group>";
@@ -139,10 +133,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FABEEBE41F45D46E00E21294 /* LaunchScreen.storyboard in Resources */,
-				FABEEBEF1F45D9AE00E21294 /* male.png in Resources */,
 				FABEEBE11F45D46E00E21294 /* Assets.xcassets in Resources */,
 				FABEEBDF1F45D46E00E21294 /* Main.storyboard in Resources */,
-				FABEEBEE1F45D9AE00E21294 /* female.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

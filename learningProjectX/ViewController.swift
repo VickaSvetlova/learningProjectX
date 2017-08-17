@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var image: UIImageView!
     var impGender=[
-        UIImage(named:"male.png")!,UIImage(named:"female.png")!
+        UIImage(named:"male")!,UIImage(named:"female")!
     ]
    
     @IBAction func male(_ sender: Any) {
