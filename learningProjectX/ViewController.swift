@@ -19,7 +19,17 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBOutlet weak var image: UIImageView!
+    var impGender=[
+        UIImage(named:"male.png")!,UIImage(named:"female.png")!
+    ]
+   
+    @IBAction func male(_ sender: Any) {
+        image.image=impGender[0]
+    }
 
-
+    @IBAction func female(_ sender: Any) {
+         image.image=impGender[1]
 }
-
+}
